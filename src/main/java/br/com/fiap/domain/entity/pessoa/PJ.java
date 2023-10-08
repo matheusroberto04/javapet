@@ -6,7 +6,7 @@ public class PJ extends Pessoa {
 
     private String CNPJ;
 
-    public PJ(String CNPJ) {
+    public PJ(Long id, String CNPJ, String tipo) {
         super("PJ");
         this.CNPJ = CNPJ;
     }

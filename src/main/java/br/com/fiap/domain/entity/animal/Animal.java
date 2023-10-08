@@ -2,7 +2,7 @@ package br.com.fiap.domain.entity.animal;
 
 import br.com.fiap.domain.entity.pessoa.Pessoa;
 
-public abstract class Animal {
+public class Animal {
 
     private Long id;
 
@@ -16,7 +16,7 @@ public abstract class Animal {
 
     private String tipo;
 
-    public Animal() {
+    public Animal(String nome, String raca) {
     }
 
 
